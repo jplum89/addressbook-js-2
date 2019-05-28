@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("obama.jpg");
+    background-size: 25%;
+}
+
+.box {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 3%;
+    background-color: blue;
+    border-radius: 8px;
+    width: 45%;
+    height: 380px;
+    background-color:rgba(192,192,192,0.8);
+    
+  }
+  
+h1 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    font: rgb(248, 245, 245);
+}
+  
+input {
+    height: 60px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    background: rgba(248, 245, 245. 0.9);
+}
+  
+select {
+    height: 65px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: rgba(248, 245, 245. 0.9);  
+  }
+  
+#button {
+    height: 65px;
+    border-radius: 8px;
+    background-color:  #f1f1f1; 
+    border-color: none;
+  }
+  
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: align-left; 
+}
+  
+p {
+    margin: -1%;
+    padding: 6%;
+    font-size: 20px;
+    justify-content: space-between;
+    background-color: rgba(192,192,192,0.9);
+    border-radius: 8px;
+    background-color:rgba(192,192,192,0.9);
+    border-radius: 8px;
+}
+
+#contact-list {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.contact-box {
+    width: 29%;
+    padding: 2%;
+}
+
+.material-icons {
+    margin-left: 25.5%;
+    margin-top: -1.5%;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+} 
