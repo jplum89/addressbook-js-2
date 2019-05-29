@@ -1,20 +1,3 @@
-
-/*
-What's new for this lab:
-
-
-Material Icons
-
-
-Here is the html tag for the delete icon:
-`<i class="material-icons">delete</i>`
-note: the inner text of each <i> tag tells the browser which specific icon to use. The library we link in the head contains hundreds if not thousands of options.
-
-Be sure to include this link in your index header:
-
-`<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` (edited)
-*/
-
 class Contact {
     constructor(name, phone, email, relation) {
         this.name = name;
